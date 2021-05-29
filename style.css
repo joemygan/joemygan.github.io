@@ -1,0 +1,51 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+  
+}
+h1 
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: monospace;
+  line-height: 1.5;
+   background-image: url("https://cdn.glitch.com/1c2cb4f0-4149-4701-8793-c2fe56b75b1e%2F21052808080801.jpg?v=1622264148630");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+}
+/* images and videos max out at full width */
+
+video {
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1{
+  font-size: 50px; 
+  text-align: center;
+  font-family:  "Goudy Bookletter 1911", sans-serif;
+  
+}
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+p {
+  
+}
+	

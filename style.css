@@ -18,13 +18,13 @@ body {
   font-family: monospace;
   line-height: 1.5;
    background-image: url("https://cdn.glitch.com/1c2cb4f0-4149-4701-8793-c2fe56b75b1e%2F21052808080801.jpg?v=1622264148630");
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-attachment: fixed;
         background-position: center;
 }
 /* images and videos max out at full width */
 
-video {
+.video {
   height: auto;
   width: 100%;
   margin-left: auto;
@@ -32,7 +32,7 @@ video {
   display: block;
 }
 
-h1{
+h1 {
   font-size: 50px; 
   text-align: center;
   font-family:  "Goudy Bookletter 1911", sans-serif;

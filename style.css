@@ -40,10 +40,12 @@ h1{
 }
 h2 {
   text-align: center;
+  height: auto;
+  width: 100%;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: calc(15px + 0.390625vw);
   text-align: center;
 }
 p {
